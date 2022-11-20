@@ -38,9 +38,9 @@ export default function App() {
   };
 
   //   // Удаление контакта
-  const deleteContact = contactId => {
+  const deleteContact = id => {
     setContacts(prevState =>
-      prevState.filter(contact => contact.id !== contactId)
+      prevState.filter(contact => contact.id !== id)
     );
   };
 
@@ -69,3 +69,4 @@ export default function App() {
     </div>
   );
 }
+
