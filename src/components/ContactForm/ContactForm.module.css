@@ -1,0 +1,30 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin-left: 40px;
+    width: 300px;
+    background-color: whitesmoke;
+    border: 1px solid grey;
+}
+
+.contactLabel {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.contactInputName {
+    margin-left: 25px;
+    width: 200px;
+}
+
+.contactInputNumber {
+    margin-left: 10px;
+    width: 200px;
+}
+
+.buttonAdd {
+    margin: 0 auto;
+}

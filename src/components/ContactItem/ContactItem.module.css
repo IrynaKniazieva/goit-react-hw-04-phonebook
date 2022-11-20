@@ -1,0 +1,19 @@
+.contactItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid grey;
+    background-color: whitesmoke;
+    width: 300px;
+    height: 30px;
+}
+
+.contactItem:nth-last-child(even) {
+    background-color: #ecf1f4;
+}
+
+.button {
+    margin-left: 20px;
+}
